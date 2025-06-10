@@ -16,24 +16,6 @@ Sau đó:
 2. Gọi hàm `getGreeting()` và chụp màn hình kết quả.
 3. (Tuỳ chọn) Sửa hàm để trả thêm địa chỉ người deploy (msg.sender).
 
-## 📚 Gợi ý
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-contract Welcome {
-    string public greeting;
-
-    constructor(string memory _greeting) {
-        greeting = _greeting;
-    }
-
-    function getGreeting() public view returns (string memory) {
-        return greeting;
-    }
-}
-```
-
 ## 💡 Gợi ý triển khai
 - Dán vào Remix tại: https://remix.ethereum.org
 - Chọn compiler 0.8.x
